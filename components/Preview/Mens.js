@@ -27,7 +27,7 @@ const Mens = () => {
 
       <Grid container spacing={3}>
         {[0, 1, 2, 3].map(value => (
-          <Grid key={value} item xs={12} md={3}>
+          <Grid key={value} item xs={12} sm={6} md={3}>
             <Item items={shopItems[4].items[value]} />
           </Grid>
         ))}

@@ -1,5 +1,5 @@
 import React from 'react'
-import Typography from '@material-ui/core/Typography';
+import {Typography, Container} from '@material-ui/core';
 import {ShopProvider} from '../context/ShopProvider'
 import {Hats, Sneakers, Jackets, Womens, Mens} from '../components/Preview'
 
@@ -7,6 +7,7 @@ const shop = () => {
   return (
     
     <ShopProvider>
+      <Container>
       <Typography variant="h4" gutterBottom>
         Collections
       </Typography>
@@ -19,6 +20,7 @@ const shop = () => {
       <Womens />
       <br/>
       <Mens />
+      </Container>
     </ShopProvider>
     
   )

@@ -4,7 +4,6 @@ import Container from "@material-ui/core/Container";
 
 const Home = () => (
   <Container>
-    <div style={{ height: "10vh" }}></div>
     <Homepage />
   </Container>
 );
